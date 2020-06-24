@@ -11,7 +11,7 @@ namespace BookListRazor.Pages.BookList
 {
     public class IndexModel : PageModel
     {
-        private readonly App licationDbContext _db;
+        private readonly ApplicationDbContext _db;
 
         public IndexModel(ApplicationDbContext db)
         {
